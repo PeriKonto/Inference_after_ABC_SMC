@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wormsim.inputfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:noNamespaceSchemaLocation="wormsim.xsd"
+                   model="onchosim">
+    <!-- general settings for HOOKWORM simulation and simulation output  -->
+    <simulation start.year="1800">
+        <surveillance nr.skin-snips="1" skin-snip.categories="0,39,79,1e7">
+          <periodic.surveys>
+              <start year="2000" month="0" delay="-2"/>
+              <stop year="2040" month="0"/>
+              <interval years="0" months="1"/>
+          </periodic.surveys>
+          <extra.surveys>
+              <!--survey year="2006" month="7" delay="-2"/-->
+              <!--survey year="2007" month="4" delay="-2"/-->
+          </extra.surveys>
+            <!-- upper bounds of age categories in output      -->
+            <age.classes>
+                <age.class age.limit="2"/>
+                <age.class age.limit="5"/>
+                <age.class age.limit="15"/>
+                <age.class age.limit="25"/>
+                <age.class age.limit="50"/>
+                <age.class age.limit="90"/>
+            </age.classes>
+        </surveillance>
+        <standard.population>
+            <age.group age.limit="5" n.males="0" n.females="0"/>
+            <age.group age.limit="10" n.males="1769" n.females="1507"/>
+            <age.group age.limit="15" n.males="1739" n.females="1465"/>
+            <age.group age.limit="20" n.males="1085" n.females="921"/>
+            <age.group age.limit="30" n.males="1409" n.females="1738"/>
+            <age.group age.limit="50" n.males="2388" n.females="2821"/>
+            <age.group age.limit="90" n.males="1208" n.females="1237"/>
+        </standard.population>
+    </simulation>
+    <demography>
+        <the.reaper max.population.size="440" reap="0.1" delay="-3"/>
+        <life.table>
+            <survival age.limit="5" male.survival="0.804" female.survival="0.804"/>
+            <survival age.limit="10" male.survival="0.772" female.survival="0.772"/>
+            <survival age.limit="15" male.survival="0.760" female.survival="0.760"/>
+            <survival age.limit="20" male.survival="0.740" female.survival="0.740"/>
+            <survival age.limit="30" male.survival="0.686" female.survival="0.686"/>
+            <survival age.limit="50" male.survival="0.509" female.survival="0.509"/>
+            <survival age.limit="90" male.survival="0.000" female.survival="0.000"/>
+        </life.table>
+        <fertility.table delay="-4">
+            <fertility age.limit="5" birth.rate="0"/>
+            <fertility age.limit="10" birth.rate="0"/>
+            <fertility age.limit="15" birth.rate="0"/>
+            <fertility age.limit="20" birth.rate="0.109"/>
+            <fertility age.limit="30" birth.rate="0.300"/>
+            <fertility age.limit="50" birth.rate="0.119"/>
+            <fertility age.limit="90" birth.rate="0.0"/>
+        </fertility.table>
+        <initial.population>
+            <age.group age.limit="1" n.males="9" n.females="10"/>
+            <age.group age.limit="5" n.males="29" n.females="34"/>
+            <age.group age.limit="10" n.males="33" n.females="32"/>
+            <age.group age.limit="15" n.males="25" n.females="24"/>
+            <age.group age.limit="20" n.males="21" n.females="21"/>
+            <age.group age.limit="30" n.males="35" n.females="35"/>
+            <age.group age.limit="50" n.males="44" n.females="43"/>
+            <age.group age.limit="90" n.males="19" n.females="20"/>
+        </initial.population>
+    </demography>
+    <blindness>
+        <treshold dist.nr="0" mean="1"/>
+        <pct-life-expectancy-reduction dist.nr="0" mean="0"/>
+    </blindness>
+    <!-- the following block of input can be used to simulate the impact of bednets / WASH -->
+    <exposure.and.contribution>
+        <environment zeta="0.02" psi="0.1145588"/>
+            <external.foi>
+                <start year="1800" month="0" foi="4" exclusive="true"/>
+                <start year="1807" month="6" foi="0" exclusive="false"/>
+            </external.foi> 
+        <male>
+            <exposure.function fun.nr="1" a="0.1" c="1"/>
+            <exposure.index dist.nr="4" p1="3.5" min="0" max= "20"/>
+            <contribution.function fun.nr="1" a="0.1" c="1"/>
+        </male>
+        <female>
+            <exposure.function fun.nr="1" a="0.1" c="1"/>
+            <exposure.index dist.nr="4" p1="3.5" min="0" max= "20"/>
+            <contribution.function fun.nr="1" a="0.1" c="1"/>
+        </female>
+        <exposure.interventions>
+            <!-- note that effectivity below means the impact on individuals that are not excluded -->
+            <moment year="2030" month="0" effectivity="1" fraction.excluded="0"/>
+            <moment year="2036" month="0" effectivity="0" fraction.excluded="0"/>
+        </exposure.interventions>
+        <contribution.interventions>
+            <!-- note that effectivity below means the impact on individuals that are not excluded -->
+            <moment year="2030" month="0" effectivity="1" fraction.excluded="0"/>
+            <moment year="2036" month="0" effectivity="0" fraction.excluded="0"/>
+        </contribution.interventions>
+        <compliance compliance.model="2">
+            <!-- the "compliance" model does not mediate compliance but inter-individual variation in effectivity!-->
+            <!-- compliance models 0 (variation by age and individual) and 1 (age-dependent) don't work correctly yet -->
+            <!-- compliance model 2 (same efficacy for everyone who uses bednets) is safe too use -->
+            <age.and.sex.specific.compliance age.limit="5"  male.compliance="1" female.compliance="1"/>
+            <age.and.sex.specific.compliance age.limit="90" male.compliance="1" female.compliance="1"/>
+        </compliance>
+    </exposure.and.contribution>
+    <anti.L3.immunity TH.L3="0" gamma="0.0">
+        <male>
+            <immunity.index dist.nr="4" min="0" max="25" mean="1.0" p1="2"/>
+        </male>
+        <female>
+            <immunity.index dist.nr="4" min="0" max="25" mean="1.0" p1="2"/>
+        </female>
+    </anti.L3.immunity>
+    <anti.Worm.immunity TH.W="0" gamma="0.0">
+        <male>
+            <immunity.index dist.nr="4" min="0" max="25" mean="1.0" p1="2"/>
+        </male>
+        <female>
+            <immunity.index dist.nr="4" min="0" max="25" mean="1.0" p1="2"/>
+        </female>
+    </anti.Worm.immunity>
+    <worm mf-lifespan="1" monthly.event.delay="+1">
+        <lifespan dist.nr="2" mean="3" p1 = "2"/>
+        <prepatent.period dist.nr="0" mean="0.1346"/>
+        <mating cycle="1" male.potential="100"/>
+        <age.dependent.mf-production labda="0.00">
+            <mf-production age.limit="0" production="1"/>
+            <mf-production age.limit="10" production="1"/>
+            <mf-production age.limit="20" production="0"/>
+        </age.dependent.mf-production>
+        <!--skin.mf-density.per.worm fun.nr="5" a="420" b="0.755" c="0"/-->
+        <alt.skin.mf-density.per.worm>
+            <a dist.nr="0" mean="4" p1="1"/>
+            <b dist.nr="0" mean="30" p1="1"/>
+            <c dist.nr="0" mean="1" p1="1"/>
+        </alt.skin.mf-density.per.worm>
+        <skin.dispersal dist.nr="0" mean="1"/>
+        <skin-snip.variability dist.nr="6" p1="0.19"/>
+    </worm>
+    <fly transmission.probability="1" success.ratio = "0.0031">
+        <L1-uptake fun.nr="1" a="1" b="0" c="-1"/>
+        <monthly.biting.rates relative.biting.rate="1">
+            <mbr month="1"  rate="1000"/>
+            <mbr month="2"  rate="1000"/>
+            <mbr month="3"  rate="1000"/>
+            <mbr month="4"  rate="1000"/>
+            <mbr month="5"  rate="1000"/>
+            <mbr month="6"  rate="1000"/>
+            <mbr month="7"  rate="1000"/>
+            <mbr month="8"  rate="1000"/>
+            <mbr month="9"  rate="1000"/>
+            <mbr month="10" rate="1000"/>
+            <mbr month="11" rate="1000"/>
+            <mbr month="12" rate="1000"/>
+        </monthly.biting.rates>
+    </fly>
+    <mass.treatments>
+        <treatment.effect.variability dist.nr="0" mean="1.0"/>
+        <mass.treatment>
+            <treatment.rounds>
+                <treatment.round year="2000" month="0" coverage="0.5563910" delay="-1"/>
+                <treatment.round year="2000" month="1" coverage="0.6390977" delay="-1"/>
+                <treatment.round year="2000" month="7" coverage="0.5939850" delay="-1"/>
+                <treatment.round year="2000" month="8" coverage="0.5413534" delay="-1"/>
+            </treatment.rounds>
+            <compliance fraction.malabsorption="0" compliance.model="0">
+                <age.and.sex.specific.compliance age.limit="2" male.compliance="0" female.compliance="0"/>
+                <age.and.sex.specific.compliance age.limit="5" male.compliance="1" female.compliance="1"/>
+                <age.and.sex.specific.compliance age.limit="10" male.compliance="1" female.compliance="1"/>
+                <age.and.sex.specific.compliance age.limit="15" male.compliance="1" female.compliance="1"/>
+                <age.and.sex.specific.compliance age.limit="20" male.compliance="1" female.compliance="1"/>
+                <age.and.sex.specific.compliance age.limit="30" male.compliance="1" female.compliance="1"/>
+                <age.and.sex.specific.compliance age.limit="45" male.compliance="1" female.compliance="1"/>
+                <age.and.sex.specific.compliance age.limit="90" male.compliance="1" female.compliance="1"/>
+            </compliance>
+            <treatment.effects permanent.reduction.mf-production="0" period.of.recovery="0.01" shape.parameter.recovery.function="1" fraction.killed="0.9">
+                <fraction.mf.surviving dist.nr="0" mean="1.0"/>
+            </treatment.effects>
+        </mass.treatment>
+    </mass.treatments>
+    <vector.control>
+        <moment year="2050" month="0" effectivity="0.80"/>
+        <moment year="2051" month="0" effectivity="0.00"/>
+    </vector.control>
+</wormsim.inputfile>

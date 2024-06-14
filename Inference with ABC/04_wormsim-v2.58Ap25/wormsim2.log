@@ -1,0 +1,432 @@
+jul 18, 2017 10:40:21 AM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+jul 18, 2017 10:40:21 AM Onchosim2.Wormsim showMessage
+INFO: Tue Jul 18 10:40:21 CEST 2017
+jul 18, 2017 10:40:21 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 0
+jul 18, 2017 10:40:23 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 1
+jul 18, 2017 10:40:24 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 2
+jul 18, 2017 10:40:24 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 3
+jul 18, 2017 10:40:25 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 4
+jul 18, 2017 10:40:26 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 5
+jul 18, 2017 10:40:27 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 6
+jul 18, 2017 10:40:28 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 7
+jul 18, 2017 10:40:29 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 8
+jul 18, 2017 10:40:30 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 9
+jul 18, 2017 10:40:31 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 10
+jul 18, 2017 10:40:32 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 11
+jul 18, 2017 10:40:32 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 12
+jul 18, 2017 10:40:32 AM events.Event schedule_dt
+WARNING: increased dt to MINTIMESTEP
+jul 18, 2017 10:40:33 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 13
+jul 18, 2017 10:40:34 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 14
+jul 18, 2017 10:40:35 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 15
+jul 18, 2017 10:40:36 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 16
+jul 18, 2017 10:40:37 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 17
+jul 18, 2017 10:40:38 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 18
+jul 18, 2017 10:40:39 AM Onchosim2.Wormsim doOneRun
+INFO: running	Pondy_L3_test.xml	seed= 19
+jul 18, 2017 10:40:40 AM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+jul 18, 2017 10:40:40 AM Onchosim2.Wormsim showMessage
+INFO: Tue Jul 18 10:40:40 CEST 2017
+jul 18, 2017 10:40:40 AM Onchosim2.Wormsim avg
+INFO: standard output: calculating average and sd of Pondy_L3_test.0 thru Pondy_L3_test.19
+jul 18, 2017 10:40:40 AM Onchosim2.Wormsim avg
+INFO: detailed output: calculating average and sd of Pondy_L3_test.0 thru Pondy_L3_test.19
+jul 18, 2017 10:40:45 AM Onchosim2.Wormsim writeoutputfilestozip
+INFO: Writing Pondy_L3_test0-19.zip
+jul 18, 2017 10:41:57 AM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+jul 18, 2017 10:41:57 AM Onchosim2.Wormsim showMessage
+INFO: Tue Jul 18 10:41:57 CEST 2017
+jul 18, 2017 10:41:58 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+jul 18, 2017 10:41:59 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 1
+jul 18, 2017 10:42:01 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 2
+jul 18, 2017 10:42:02 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 3
+jul 18, 2017 10:42:03 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 4
+jul 18, 2017 10:42:05 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 5
+jul 18, 2017 10:42:06 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 6
+jul 18, 2017 10:42:07 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 7
+jul 18, 2017 10:42:08 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 8
+jul 18, 2017 10:42:10 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 9
+jul 18, 2017 10:42:11 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 10
+jul 18, 2017 10:42:12 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 11
+jul 18, 2017 10:42:13 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 12
+jul 18, 2017 10:42:15 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 13
+jul 18, 2017 10:42:15 AM events.Event schedule_dt
+WARNING: increased dt to MINTIMESTEP
+jul 18, 2017 10:42:16 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 14
+jul 18, 2017 10:42:17 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 15
+jul 18, 2017 10:42:18 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 16
+jul 18, 2017 10:42:20 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 17
+jul 18, 2017 10:42:21 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 18
+jul 18, 2017 10:42:22 AM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 19
+jul 18, 2017 10:44:04 AM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+jul 18, 2017 10:44:04 AM Onchosim2.Wormsim showMessage
+INFO: Tue Jul 18 10:44:04 CEST 2017
+jul 18, 2017 10:44:04 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 0
+jul 18, 2017 10:44:06 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 1
+jul 18, 2017 10:44:07 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 2
+jul 18, 2017 10:44:09 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 3
+jul 18, 2017 10:44:10 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 4
+jul 18, 2017 10:44:12 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 5
+jul 18, 2017 10:44:13 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 6
+jul 18, 2017 10:44:15 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 7
+jul 18, 2017 10:44:16 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 8
+jul 18, 2017 10:44:18 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 9
+jul 18, 2017 10:44:19 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 10
+jul 18, 2017 10:44:21 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 11
+jul 18, 2017 10:44:22 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 12
+jul 18, 2017 10:44:23 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 13
+jul 18, 2017 10:44:25 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 14
+jul 18, 2017 10:44:26 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 15
+jul 18, 2017 10:44:27 AM events.Event schedule_dt
+WARNING: increased dt to MINTIMESTEP
+jul 18, 2017 10:44:28 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 16
+jul 18, 2017 10:44:29 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 17
+jul 18, 2017 10:44:31 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 18
+jul 18, 2017 10:44:32 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 19
+jul 18, 2017 10:44:34 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 20
+jul 18, 2017 10:44:35 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 21
+jul 18, 2017 10:44:36 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 22
+jul 18, 2017 10:44:38 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 23
+jul 18, 2017 10:44:39 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 24
+jul 18, 2017 10:44:41 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 25
+jul 18, 2017 10:44:42 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 26
+jul 18, 2017 10:44:44 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 27
+jul 18, 2017 10:44:45 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 28
+jul 18, 2017 10:44:46 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 29
+jul 18, 2017 10:44:48 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 30
+jul 18, 2017 10:44:49 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 31
+jul 18, 2017 10:44:51 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 32
+jul 18, 2017 10:44:52 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 33
+jul 18, 2017 10:44:54 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 34
+jul 18, 2017 10:44:55 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 35
+jul 18, 2017 10:44:57 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 36
+jul 18, 2017 10:44:58 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 37
+jul 18, 2017 10:45:00 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 38
+jul 18, 2017 10:45:01 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 39
+jul 18, 2017 10:45:02 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 40
+jul 18, 2017 10:45:04 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 41
+jul 18, 2017 10:45:05 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 42
+jul 18, 2017 10:45:07 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 43
+jul 18, 2017 10:45:08 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 44
+jul 18, 2017 10:45:10 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 45
+jul 18, 2017 10:45:11 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 46
+jul 18, 2017 10:45:12 AM events.Event schedule_dt
+WARNING: increased dt to MINTIMESTEP
+jul 18, 2017 10:45:13 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 47
+jul 18, 2017 10:45:14 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 48
+jul 18, 2017 10:45:15 AM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA.xml	seed= 49
+okt 02, 2017 4:51:37 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 4:51:37 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 16:51:37 CEST 2017
+okt 02, 2017 4:51:44 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 4:51:44 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 16:51:44 CEST 2017
+okt 02, 2017 4:56:48 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 4:56:48 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 16:56:48 CEST 2017
+okt 02, 2017 4:56:48 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+okt 02, 2017 4:56:50 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 1
+okt 02, 2017 4:56:51 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 2
+okt 02, 2017 4:56:53 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 3
+okt 02, 2017 4:56:54 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 4
+okt 02, 2017 4:56:55 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 5
+okt 02, 2017 4:56:57 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 6
+okt 02, 2017 4:56:58 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 7
+okt 02, 2017 4:56:59 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 8
+okt 02, 2017 4:57:01 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 9
+okt 02, 2017 4:57:02 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 10
+okt 02, 2017 4:57:04 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 11
+okt 02, 2017 4:57:05 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 12
+okt 02, 2017 4:57:06 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 13
+okt 02, 2017 4:57:08 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 14
+okt 02, 2017 4:57:09 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 15
+okt 02, 2017 4:57:10 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 16
+okt 02, 2017 4:57:12 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 17
+okt 02, 2017 4:57:13 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 18
+okt 02, 2017 4:57:14 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 19
+okt 02, 2017 4:58:19 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 4:58:20 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 16:58:20 CEST 2017
+okt 02, 2017 4:58:20 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+okt 02, 2017 5:01:49 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:01:49 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:01:49 CEST 2017
+okt 02, 2017 5:01:49 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+okt 02, 2017 5:01:51 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 1
+okt 02, 2017 5:01:52 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 2
+okt 02, 2017 5:01:54 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 3
+okt 02, 2017 5:01:55 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 4
+okt 02, 2017 5:01:56 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 5
+okt 02, 2017 5:01:58 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 6
+okt 02, 2017 5:01:59 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 7
+okt 02, 2017 5:02:00 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 8
+okt 02, 2017 5:02:02 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 9
+okt 02, 2017 5:02:03 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 10
+okt 02, 2017 5:02:04 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 11
+okt 02, 2017 5:02:06 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 12
+okt 02, 2017 5:02:07 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 13
+okt 02, 2017 5:02:08 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 14
+okt 02, 2017 5:02:10 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 15
+okt 02, 2017 5:02:11 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 16
+okt 02, 2017 5:02:13 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 17
+okt 02, 2017 5:02:14 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 18
+okt 02, 2017 5:02:15 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 19
+okt 02, 2017 5:02:17 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 20
+okt 02, 2017 5:02:18 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 21
+okt 02, 2017 5:03:51 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:03:51 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:03:51 CEST 2017
+okt 02, 2017 5:03:51 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+okt 02, 2017 5:06:27 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:06:27 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:06:27 CEST 2017
+okt 02, 2017 5:06:28 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+okt 02, 2017 5:06:29 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 1
+okt 02, 2017 5:06:31 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 2
+okt 02, 2017 5:06:32 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 3
+okt 02, 2017 5:06:33 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 4
+okt 02, 2017 5:06:35 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 5
+okt 02, 2017 5:06:36 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 6
+okt 02, 2017 5:06:37 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 7
+okt 02, 2017 5:06:38 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 8
+okt 02, 2017 5:06:40 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 9
+okt 02, 2017 5:06:41 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 10
+okt 02, 2017 5:06:43 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 11
+okt 02, 2017 5:06:44 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 12
+okt 02, 2017 5:06:45 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 13
+okt 02, 2017 5:06:47 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 14
+okt 02, 2017 5:06:48 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 15
+okt 02, 2017 5:06:49 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 16
+okt 02, 2017 5:06:51 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 17
+okt 02, 2017 5:06:52 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 18
+okt 02, 2017 5:06:53 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 19
+okt 02, 2017 5:06:55 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:06:55 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:06:55 CEST 2017
+okt 02, 2017 5:06:55 PM Onchosim2.Wormsim avg
+INFO: standard output: calculating average and sd of templateXMDA.0 thru templateXMDA.19
+okt 02, 2017 5:07:58 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:07:58 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:07:58 CEST 2017
+okt 02, 2017 5:07:58 PM Onchosim2.Wormsim avg
+INFO: standard output: calculating average and sd of templateXMDA.0 thru templateXMDA.19
+okt 02, 2017 5:08:24 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:08:24 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:08:24 CEST 2017
+okt 02, 2017 5:08:25 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+okt 02, 2017 5:08:29 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:08:29 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:08:29 CEST 2017
+okt 02, 2017 5:08:29 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 0
+okt 02, 2017 5:08:31 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 1
+okt 02, 2017 5:08:32 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 2
+okt 02, 2017 5:08:33 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 3
+okt 02, 2017 5:08:35 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 4
+okt 02, 2017 5:08:36 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 5
+okt 02, 2017 5:08:37 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 6
+okt 02, 2017 5:08:39 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 7
+okt 02, 2017 5:08:40 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 8
+okt 02, 2017 5:08:42 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 9
+okt 02, 2017 5:08:43 PM Onchosim2.Wormsim doOneRun
+INFO: running	templateXMDA.xml	seed= 10
+okt 02, 2017 5:08:45 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 02, 2017 5:08:45 PM Onchosim2.Wormsim showMessage
+INFO: Mon Oct 02 17:08:45 CEST 2017
+okt 02, 2017 5:08:45 PM Onchosim2.Wormsim avg
+INFO: standard output: calculating average and sd of templateXMDA.0 thru templateXMDA.19
+okt 06, 2017 2:12:15 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 06, 2017 2:12:15 PM Onchosim2.Wormsim showMessage
+INFO: Fri Oct 06 14:12:15 CEST 2017
+okt 06, 2017 2:12:15 PM Onchosim2.Wormsim doOneRun
+INFO: running	template2MDA_all_6_10_18.xml	seed= 0
+okt 06, 2017 2:12:17 PM Onchosim2.Wormsim showMessage
+INFO: WORMSIM-2 version 2.58Ap25
+okt 06, 2017 2:12:18 PM Onchosim2.Wormsim showMessage
+INFO: Fri Oct 06 14:12:18 CEST 2017
+okt 06, 2017 2:12:18 PM Onchosim2.Wormsim avg
+INFO: standard output: calculating average and sd of template2MDA_all_6_10_18.0 thru template2MDA_all_6_10_18.0
+okt 06, 2017 2:12:18 PM Onchosim2.Wormsim avg
+INFO: detailed output: calculating average and sd of template2MDA_all_6_10_18.0 thru template2MDA_all_6_10_18.0
+okt 06, 2017 2:12:18 PM Onchosim2.Wormsim writeoutputfilestozip
+INFO: Writing template2MDA_all_6_10_180-0.zip

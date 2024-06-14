@@ -1,0 +1,5 @@
+"village","year","intens","cases","N","prev"
+"TestVillage",2011,"None",34,43,0.808814959791341
+"TestVillage",2011,"Light",2,43,0.0440225538225353
+"TestVillage",2011,"Moderate",3,43,0.0765230461324535
+"TestVillage",2011,"Heavy",3,43,0.0706394402536702
